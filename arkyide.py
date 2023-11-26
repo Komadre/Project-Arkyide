@@ -1,4 +1,4 @@
-import os 
+import os
 import git
 import pyfiglet
 import random
@@ -9,7 +9,7 @@ def wmm():
 def wmm2():
 
 def wmm3():
-    
+
 randomwmm = [wmm, wmm2, wmm3]
 
 randomwmmprint = random.choice(randomwmm)
