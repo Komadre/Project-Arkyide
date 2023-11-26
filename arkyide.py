@@ -8,7 +8,7 @@ def wmm():
     wmm = pyfiglet.figlet_format("Arkyide")
 def wmm2():
 
-def wmm3():
+def wmm3()
 
 
 randomwmm = [wmm, wmm2, wmm3]
