@@ -10,3 +10,5 @@ def wmm2():
 
 def wmm3():
     
+randomwmm = [wmm, wmm2, wmm3]
+randomwmmprint = random.choice
