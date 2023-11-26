@@ -4,4 +4,4 @@ import pyfiglet
 #Work in progress
 # function wmm = welcome message and menu, for later
 def wmm():
-    
+    wmm = pyfiglet.figlet_format("Arkyide")
