@@ -1,3 +1,3 @@
 import os 
 import git
-import python
+import pyfiglet
