@@ -1,5 +1,5 @@
 import os
-import git
+import python-git
 import pyfiglet
 from time import sleep
 #Work in progress
