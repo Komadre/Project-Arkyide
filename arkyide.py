@@ -15,6 +15,10 @@ def wmm():
     if userinputmenu == '1':
         toolslistad()
     elif userinputmenu == '2':
-        print()
+        print("to be continuuuueeed")
+    elif userinputmenu == '3':
+        print('Exiting...')
+        os.system('cls')
+        
 def toolslistad():
     print("")
