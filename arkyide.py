@@ -14,6 +14,7 @@ def wmm():
     print("3. Exit")
     userinputmenu = int(input("Enter your choice"))
     if userinputmenu == '1':
+        os.system('cls')
         toolslistad()
     elif userinputmenu == '2':
         print("to be continuuuueeed")
@@ -24,5 +25,10 @@ def wmm():
         print('Exiting...')
         os.system('cls')
         exit()
+    else:
+        print("Wrong choice/unknown!")
+        sleep(1)
+        os.system('cls')
+        wmm()
 def toolslistad():
     print("")
