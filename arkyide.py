@@ -6,4 +6,8 @@ import random
 # function wmm = welcome message and menu, for later
 def wmm():
     wmm = pyfiglet.figlet_format("Arkyide")
-def 
+    print(wmm)
+    print("Select one of the options: \n")
+    print('1. Show all tools')
+    print("2. To be continued")
+    
