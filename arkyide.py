@@ -11,7 +11,7 @@ def wmm():
     print('1. Show all tools')
     print("2. To be continued")
     print("3. Exit")
-    userinputmenu = int(input("Enter your choice"))
+    userinputmenu = int(input("Enter your choice: \n"))
     if userinputmenu == '1':
         os.system('cls')
         toolslistad()
