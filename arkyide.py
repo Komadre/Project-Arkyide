@@ -1,7 +1,8 @@
 import os
 import git
 import pyfiglet
-import random
+import 
+from time import sleep
 #Work in progress
 # function wmm = welcome message and menu, for later
 def wmm():
@@ -16,9 +17,12 @@ def wmm():
         toolslistad()
     elif userinputmenu == '2':
         print("to be continuuuueeed")
+        sleep(3)
+        os.system('cls')
+        wmm()
     elif userinputmenu == '3':
         print('Exiting...')
         os.system('cls')
-        
+        exit()
 def toolslistad():
     print("")
