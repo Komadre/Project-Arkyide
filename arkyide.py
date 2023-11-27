@@ -12,5 +12,9 @@ def wmm():
     print("2. To be continued")
     print("3. Exit")
     userinputmenu = int(input("Enter your choice"))
+    if userinputmenu == '1':
+        toolslistad()
+    elif userinputmenu == '2':
+        print()
 def toolslistad():
     print("")
