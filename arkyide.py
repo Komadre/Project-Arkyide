@@ -11,6 +11,6 @@ def wmm():
     print('1. Show all tools')
     print("2. To be continued")
     print("3. Exit")
-    userinputmenu = int(input)
+    userinputmenu = int(input("Enter your choice"))
 def toolslistad():
     print("")
