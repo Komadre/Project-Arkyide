@@ -1,5 +1,6 @@
 import os
-import python-git
+from os import system
+from git import repo
 import pyfiglet
 from time import sleep
 #Work in progress
@@ -11,23 +12,24 @@ def wmm():
     print('1. Show all tools')
     print("2. To be continued")
     print("3. Exit")
-    userinputmenu = int(input("Enter your choice: \n"))
+    userinputmenu = input("Enter your choice: \n ")
     if userinputmenu == '1':
-        os.system('cls')
+        os.system('clear')
         toolslistad()
     elif userinputmenu == '2':
         print("to be continuuuueeed")
         sleep(3)
-        os.system('cls')
+        os.system('clear')
         wmm()
     elif userinputmenu == '3':
         print('Exiting...')
-        os.system('cls')
+        os.system('clear')
         exit()
     else:
         print("Wrong choice/unknown!")
         sleep(1)
-        os.system('cls')
+        os.system('clear')
         wmm()
 def toolslistad():
     print("")
+wmm()
