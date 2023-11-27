@@ -1,7 +1,6 @@
 import os
 import git
 import pyfiglet
-import 
 from time import sleep
 #Work in progress
 # function wmm = welcome message and menu, for later
