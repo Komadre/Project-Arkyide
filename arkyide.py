@@ -41,5 +41,10 @@ start = input('Start the script? \n Yes \n No')
 if start == 'yes':
     os.system('clear')
     wmmm()
+elif start == 'no':
+    os.system('clear')
+    exit()
+else:
+    print("Wrong choice!")
 
 
