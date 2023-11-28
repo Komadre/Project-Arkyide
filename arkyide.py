@@ -46,5 +46,8 @@ elif start == 'no':
     exit()
 else:
     print("Wrong choice!")
+    sleep(2)
+    os.system('clear')
+    exit()
 
 
