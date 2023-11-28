@@ -37,5 +37,9 @@ def toolslistad():
 
 
 
-start = input('Start the script?')
+start = input('Start the script? \n Yes \n No')
+if start == 'yes':
+    os.system('clear')
+    wmmm()
+
 
