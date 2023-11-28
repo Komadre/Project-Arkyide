@@ -32,4 +32,10 @@ def wmm():
         wmm()
 def toolslistad():
     print("")
-wmm()
+
+
+
+
+
+start = input('Start the script?')
+
