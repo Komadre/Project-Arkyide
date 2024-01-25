@@ -1,6 +1,6 @@
 # Project-Arkyide
 Project Arkyide is a suite of tool installing and multi functional scanning using popular tools(like Nmap, yk).
-The whole idea of this project is to have all the popular scanning and other hacking tools in one place.
+The whole idea of this project is to have all the popular scanning and other simple hacking tools in one place.
 ## Probably to be added to the project in soon future:
 ```
 - Nmap scanning
